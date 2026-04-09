@@ -1,0 +1,608 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="dark">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Sriram Mahankali — AI & Data Analytics</title>
+  <meta name="description" content="Sriram Mahankali is an MS Artificial Intelligence student at UTSA specializing in data analytics, predictive modeling, and retention analytics." />
+  <meta property="og:title" content="Sriram Mahankali — AI & Data Analytics" />
+  <meta property="og:description" content="MS AI student at UTSA. Data analysis, predictive modeling, and retention analytics." />
+  <meta property="og:type" content="website" />
+
+  <!-- Fonts: Cabinet Grotesk (display) + Satoshi (body) via Fontshare -->
+  <link href="https://api.fontshare.com/v2/css?f[]=cabinet-grotesk@400,500,600,700,800&f[]=satoshi@300,400,500,700&display=swap" rel="stylesheet" />
+
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <!-- ═══════════════════════════ HEADER ═══════════════════════════ -->
+  <header class="header" id="header">
+    <div class="header-inner">
+      <a href="#" class="logo" aria-label="Sriram Mahankali home">
+        <svg width="36" height="36" viewBox="0 0 36 36" fill="none" aria-hidden="true" xmlns="http://www.w3.org/2000/svg">
+          <rect width="36" height="36" rx="8" fill="var(--color-primary)"/>
+          <!-- S letterform -->
+          <path d="M10 13.5C10 11.567 11.567 10 13.5 10H22.5C22.5 10 24 10 24 11.5C24 13 22.5 13 22.5 13H14C13.172 13 13 13.5 13 14C13 14.5 13.5 15 14.5 15.5L22 18C23.5 18.8 26 20 26 22.5C26 25 24 26 22 26H13C11.5 26 10 25 10 23.5C10 22 11.5 22 11.5 22H21.5C22.5 22 23 21.5 23 21C23 20.5 22.5 20 21.5 19.5L14 17C11.5 15.8 10 15 10 13.5Z" fill="white"/>
+        </svg>
+        <span class="logo-text">Sriram Mahankali</span>
+      </a>
+
+      <nav class="nav" aria-label="Main navigation">
+        <a href="#about" class="nav-link">About</a>
+        <a href="#experience" class="nav-link">Experience</a>
+        <a href="#projects" class="nav-link">Projects</a>
+        <a href="#skills" class="nav-link">Skills</a>
+        <a href="#contact" class="nav-link nav-cta">Contact</a>
+      </nav>
+
+      <div class="header-actions">
+        <button class="theme-toggle" data-theme-toggle aria-label="Switch to light mode">
+          <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"/></svg>
+        </button>
+        <button class="nav-hamburger" id="nav-hamburger" aria-label="Open menu" aria-expanded="false">
+          <span></span><span></span><span></span>
+        </button>
+      </div>
+    </div>
+
+    <!-- Mobile nav -->
+    <div class="mobile-nav" id="mobile-nav" aria-hidden="true">
+      <a href="#about" class="mobile-nav-link">About</a>
+      <a href="#experience" class="mobile-nav-link">Experience</a>
+      <a href="#projects" class="mobile-nav-link">Projects</a>
+      <a href="#skills" class="mobile-nav-link">Skills</a>
+      <a href="#contact" class="mobile-nav-link">Contact</a>
+    </div>
+  </header>
+
+  <!-- ═══════════════════════════ HERO ═══════════════════════════ -->
+  <section class="hero" id="home">
+    <div class="hero-bg">
+      <div class="hero-grid-overlay"></div>
+      <div class="hero-glow hero-glow-1"></div>
+      <div class="hero-glow hero-glow-2"></div>
+    </div>
+    <div class="container hero-content">
+      <div class="hero-badge">
+        <span class="badge-dot"></span>
+        <span>MS Artificial Intelligence · UTSA</span>
+      </div>
+      <h1 class="hero-name">
+        Sriram<br/><span class="hero-name-accent">Mahankali</span>
+      </h1>
+      <p class="hero-tagline">Data Analyst & AI Practitioner turning raw data into decisions that matter</p>
+      <div class="hero-actions">
+        <a href="#projects" class="btn btn-primary">View Projects</a>
+        <a href="#contact" class="btn btn-ghost">Get in Touch</a>
+        <a href="resume.pdf" download="Sriram-Mahankali-Resume.pdf" class="btn btn-resume">
+          <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" aria-hidden="true"><path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"/><polyline points="7 10 12 15 17 10"/><line x1="12" y1="15" x2="12" y2="3"/></svg>
+          Resume
+        </a>
+      </div>
+
+      <div class="hero-stats">
+        <div class="stat">
+          <span class="stat-number">3+</span>
+          <span class="stat-label">Projects Shipped</span>
+        </div>
+        <div class="stat-divider"></div>
+        <div class="stat">
+          <span class="stat-number">100+</span>
+          <span class="stat-label">Students Supported</span>
+        </div>
+        <div class="stat-divider"></div>
+        <div class="stat">
+          <span class="stat-number">R²=0.90</span>
+          <span class="stat-label">Best Model Fit</span>
+        </div>
+      </div>
+    </div>
+
+    <!-- Floating data orbs -->
+    <div class="hero-orbs" aria-hidden="true">
+      <div class="orb orb-1">Python</div>
+      <div class="orb orb-2">SQL</div>
+      <div class="orb orb-3">Power BI</div>
+      <div class="orb orb-4">Tableau</div>
+      <div class="orb orb-5">BigQuery</div>
+    </div>
+
+    <div class="scroll-hint" aria-hidden="true">
+      <span>Scroll</span>
+      <div class="scroll-line"></div>
+    </div>
+  </section>
+
+  <!-- ═══════════════════════════ ABOUT ═══════════════════════════ -->
+  <section class="section" id="about">
+    <div class="container">
+      <div class="about-grid">
+        <div class="about-text">
+          <div class="section-label">About Me</div>
+          <h2 class="section-title">Building bridges between data and decisions</h2>
+          <p class="body-text">I'm a Graduate Assistant in Student Success at UTSA, where I analyze student engagement data to improve retention outcomes. My work blends institutional analytics with modern data tools to identify at-risk students and drive evidence-based interventions.</p>
+          <p class="body-text">Currently pursuing my <strong>MS in Artificial Intelligence with an Analytics Track</strong> at The University of Texas at San Antonio — building on a solid foundation from my BTech in Computer Science at SRM University.</p>
+          <p class="body-text">I'm drawn to problems where data can directly improve human outcomes: education equity, healthcare classification, customer behavior. The goal is always the same — turn signal into action.</p>
+          <div class="about-links">
+            <a href="https://www.linkedin.com/in/mahankalisriram" target="_blank" rel="noopener" class="about-link">
+              <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor"><path d="M20.447 20.452h-3.554v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.351V9h3.414v1.561h.046c.477-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 5.455v6.286zM5.337 7.433a2.062 2.062 0 0 1-2.063-2.065 2.064 2.064 0 1 1 2.063 2.065zm1.782 13.019H3.555V9h3.564v11.452zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451C23.2 24 24 23.227 24 22.271V1.729C24 .774 23.2 0 22.222 0h.003z"/></svg>
+              LinkedIn
+            </a>
+            <a href="mailto:sriram.mahankali@my.utsa.edu" class="about-link">
+              <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/><polyline points="22,6 12,13 2,6"/></svg>
+              sriram.mahankali@my.utsa.edu
+            </a>
+          </div>
+        </div>
+
+        <div class="about-visual">
+          <div class="profile-card">
+            <div class="profile-avatar">
+              <svg width="56" height="56" viewBox="0 0 56 56" fill="none" aria-hidden="true">
+                <circle cx="28" cy="28" r="28" fill="var(--color-primary-highlight)"/>
+                <circle cx="28" cy="22" r="10" fill="var(--color-primary)" opacity="0.9"/>
+                <ellipse cx="28" cy="46" rx="16" ry="10" fill="var(--color-primary)" opacity="0.7"/>
+              </svg>
+            </div>
+            <div class="profile-info">
+              <div class="profile-name">Sriram Mahankali</div>
+              <div class="profile-role">Graduate Assistant · Data Analyst</div>
+              <div class="profile-school">
+                <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M22 10v6M2 10l10-5 10 5-10 5z"/><path d="M6 12v5c3 3 9 3 12 0v-5"/></svg>
+                University of Texas at San Antonio
+              </div>
+            </div>
+            <div class="profile-status">
+              <span class="status-dot"></span> Open to Roles
+            </div>
+          </div>
+
+          <div class="about-highlights">
+            <div class="highlight-item">
+              <div class="highlight-icon">
+                <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="22 12 18 12 15 21 9 3 6 12 2 12"/></svg>
+              </div>
+              <div class="highlight-text">
+                <span class="highlight-title">Retention Analytics</span>
+                <span class="highlight-sub">Civitas / Inspire · UTSA Student Success</span>
+              </div>
+            </div>
+            <div class="highlight-item">
+              <div class="highlight-icon">
+                <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="10"/><path d="M12 8v4l3 3"/></svg>
+              </div>
+              <div class="highlight-text">
+                <span class="highlight-title">100+ Students Supported</span>
+                <span class="highlight-sub">Outreach & intervention analysis per semester</span>
+              </div>
+            </div>
+            <div class="highlight-item">
+              <div class="highlight-icon">
+                <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M2 20h.01M7 20v-4"/><path d="M12 20v-8"/><path d="M17 20v-6"/><path d="M22 4v16"/></svg>
+              </div>
+              <div class="highlight-text">
+                <span class="highlight-title">Predictive Modeling</span>
+                <span class="highlight-sub">Python · R · SQL · Power BI · Tableau</span>
+              </div>
+            </div>
+            <div class="highlight-item">
+              <div class="highlight-icon">
+                <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><ellipse cx="12" cy="5" rx="9" ry="3"/><path d="M21 12c0 1.66-4 3-9 3s-9-1.34-9-3"/><path d="M3 5v14c0 1.66 4 3 9 3s9-1.34 9-3V5"/></svg>
+              </div>
+              <div class="highlight-text">
+                <span class="highlight-title">Cloud & ETL</span>
+                <span class="highlight-sub">BigQuery · Snowflake · Airflow · DBT</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ═══════════════════════════ EXPERIENCE ═══════════════════════════ -->
+  <section class="section section-alt" id="experience">
+    <div class="container">
+      <div class="section-header">
+        <div class="section-label">Experience</div>
+        <h2 class="section-title">Where I've worked</h2>
+      </div>
+
+      <div class="timeline">
+        <div class="timeline-item reveal">
+          <div class="timeline-marker">
+            <div class="timeline-dot"></div>
+            <div class="timeline-line"></div>
+          </div>
+          <div class="timeline-card">
+            <div class="timeline-meta">
+              <span class="timeline-date">May 2025 — Present</span>
+              <span class="timeline-badge timeline-badge-current">Current</span>
+            </div>
+            <h3 class="timeline-role">Graduate Assistant — Student Success</h3>
+            <div class="timeline-org">University of Texas at San Antonio (UTSA)</div>
+            <p class="timeline-desc">Data Analysis & Retention Analytics</p>
+            <ul class="timeline-bullets">
+              <li>Analyzed student engagement and performance data using institutional systems (Civitas/Inspire) to identify at-risk students and support retention initiatives</li>
+              <li>Conducted outreach to 100+ students per semester and analyzed response trends to evaluate intervention effectiveness and engagement outcomes</li>
+              <li>Maintained accurate records and generated summary insights to support data-informed decision-making within the Student Success team</li>
+            </ul>
+            <div class="timeline-tags">
+              <span class="tag">Civitas / Inspire</span>
+              <span class="tag">Retention Analytics</span>
+              <span class="tag">Student Success</span>
+              <span class="tag">Data Analysis</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="timeline-item reveal">
+          <div class="timeline-marker">
+            <div class="timeline-dot"></div>
+          </div>
+          <div class="timeline-card">
+            <div class="timeline-meta">
+              <span class="timeline-date">May 2023 — Jul 2023</span>
+            </div>
+            <h3 class="timeline-role">Web Development Intern</h3>
+            <div class="timeline-org">OASIS INFOBYTE · India</div>
+            <ul class="timeline-bullets">
+              <li>Developed responsive web applications with structured data handling and client-side input validation to ensure accurate user data processing</li>
+              <li>Implemented logical data workflows and form validation mechanisms to improve data integrity and application reliability</li>
+              <li>Conducted testing and performance analysis to optimize application responsiveness and user interaction efficiency</li>
+            </ul>
+            <div class="timeline-tags">
+              <span class="tag">JavaScript</span>
+              <span class="tag">Responsive Design</span>
+              <span class="tag">Form Validation</span>
+              <span class="tag">Performance Testing</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ═══════════════════════════ PROJECTS ═══════════════════════════ -->
+  <section class="section" id="projects">
+    <div class="container">
+      <div class="section-header">
+        <div class="section-label">Projects</div>
+        <h2 class="section-title">Work I'm proud of</h2>
+      </div>
+
+      <div class="projects-grid">
+
+        <!-- Project 1 -->
+        <div class="project-card project-card-featured reveal">
+          <div class="project-card-inner">
+            <div class="project-visual project-visual-1">
+              <div class="chart-demo">
+                <div class="chart-bars">
+                  <div class="chart-bar" style="--h: 45%"><span>Pre-K</span></div>
+                  <div class="chart-bar" style="--h: 60%"><span>K-5</span></div>
+                  <div class="chart-bar" style="--h: 78%"><span>6-8</span></div>
+                  <div class="chart-bar" style="--h: 90%"><span>9-12</span></div>
+                  <div class="chart-bar" style="--h: 100%"><span>Higher</span></div>
+                </div>
+                <div class="chart-label-y">Enrollment</div>
+              </div>
+              <div class="project-metric">
+                <span class="metric-value">R²=0.898</span>
+                <span class="metric-label">Model Accuracy</span>
+              </div>
+            </div>
+            <div class="project-content">
+              <div class="project-number">01</div>
+              <h3 class="project-title">Impact of Revenues on Education Enrollment</h3>
+              <p class="project-desc">Analyzed U.S. state-level education revenue and expenditure data to assess impact on Pre-K–12 enrollment trends. Built linear regression models with R²=0.898 to evaluate funding patterns and identify significant correlations supporting data-driven education policy insights.</p>
+              <div class="project-stack">
+                <span class="tag">R</span>
+                <span class="tag">SAS</span>
+                <span class="tag">Linear Regression</span>
+                <span class="tag">Data Visualization</span>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Project 2 -->
+        <div class="project-card reveal">
+          <div class="project-card-inner">
+            <div class="project-visual project-visual-2">
+              <div class="cluster-demo" aria-hidden="true">
+                <div class="cluster-dot c1" style="top:20%;left:25%"></div>
+                <div class="cluster-dot c1" style="top:30%;left:20%"></div>
+                <div class="cluster-dot c1" style="top:25%;left:35%"></div>
+                <div class="cluster-dot c1" style="top:40%;left:28%"></div>
+                <div class="cluster-dot c2" style="top:60%;left:60%"></div>
+                <div class="cluster-dot c2" style="top:70%;left:70%"></div>
+                <div class="cluster-dot c2" style="top:55%;left:75%"></div>
+                <div class="cluster-dot c2" style="top:65%;left:55%"></div>
+                <div class="cluster-dot c3" style="top:20%;left:75%"></div>
+                <div class="cluster-dot c3" style="top:30%;left:80%"></div>
+                <div class="cluster-dot c3" style="top:15%;left:65%"></div>
+                <div class="cluster-label c1l" style="top:55%;left:5%">Cluster A</div>
+                <div class="cluster-label c2l" style="top:80%;left:55%">Cluster B</div>
+                <div class="cluster-label c3l" style="top:5%;left:70%">Cluster C</div>
+              </div>
+              <div class="project-metric">
+                <span class="metric-value">k=3</span>
+                <span class="metric-label">Clusters Found</span>
+              </div>
+            </div>
+            <div class="project-content">
+              <div class="project-number">02</div>
+              <h3 class="project-title">Customer Spending Analysis</h3>
+              <p class="project-desc">Analyzed 1,000 customer records to evaluate demographic and behavioral factors on spending. Applied K-Means clustering (k=3) to segment customers and identify high-value groups — generating actionable insights for targeted marketing strategies.</p>
+              <div class="project-stack">
+                <span class="tag">Python</span>
+                <span class="tag">Pandas</span>
+                <span class="tag">NumPy</span>
+                <span class="tag">K-Means</span>
+                <span class="tag">Matplotlib</span>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Project 3 -->
+        <div class="project-card reveal">
+          <div class="project-card-inner">
+            <div class="project-visual project-visual-3">
+              <div class="grid-demo" aria-hidden="true">
+                <div class="grid-cell active"></div>
+                <div class="grid-cell"></div>
+                <div class="grid-cell active-2"></div>
+                <div class="grid-cell"></div>
+                <div class="grid-cell active"></div>
+                <div class="grid-cell active-2"></div>
+                <div class="grid-cell"></div>
+                <div class="grid-cell active"></div>
+                <div class="grid-cell"></div>
+                <div class="grid-cell active-2"></div>
+                <div class="grid-cell active"></div>
+                <div class="grid-cell"></div>
+                <div class="grid-cell active-2"></div>
+                <div class="grid-cell"></div>
+                <div class="grid-cell active"></div>
+                <div class="grid-cell"></div>
+              </div>
+              <div class="project-metric">
+                <span class="metric-value">CNN</span>
+                <span class="metric-label">Architecture</span>
+              </div>
+            </div>
+            <div class="project-content">
+              <div class="project-number">03</div>
+              <h3 class="project-title">Medical Image Classification Analysis</h3>
+              <p class="project-desc">Processed and analyzed labeled medical image datasets to evaluate classification performance. Performed feature extraction and model comparison to improve prediction accuracy, then assessed model metrics to determine optimal configuration for image-based detection.</p>
+              <div class="project-stack">
+                <span class="tag">Python</span>
+                <span class="tag">Data Preprocessing</span>
+                <span class="tag">Model Evaluation</span>
+                <span class="tag">Feature Extraction</span>
+              </div>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ═══════════════════════════ SKILLS ═══════════════════════════ -->
+  <section class="section section-alt" id="skills">
+    <div class="container">
+      <div class="section-header">
+        <div class="section-label">Technical Skills</div>
+        <h2 class="section-title">My toolkit</h2>
+      </div>
+
+      <div class="skills-grid">
+        <div class="skill-group reveal">
+          <div class="skill-group-icon">
+            <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="16 18 22 12 16 6"/><polyline points="8 6 2 12 8 18"/></svg>
+          </div>
+          <h3 class="skill-group-title">Programming & Analysis</h3>
+          <div class="skill-chips">
+            <span class="chip chip-primary">Python</span>
+            <span class="chip chip-primary">SQL</span>
+            <span class="chip">R</span>
+            <span class="chip">JavaScript</span>
+          </div>
+        </div>
+
+        <div class="skill-group reveal">
+          <div class="skill-group-icon">
+            <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="2" y="3" width="20" height="14" rx="2"/><line x1="8" y1="21" x2="16" y2="21"/><line x1="12" y1="17" x2="12" y2="21"/></svg>
+          </div>
+          <h3 class="skill-group-title">Visualization & BI</h3>
+          <div class="skill-chips">
+            <span class="chip chip-primary">Power BI</span>
+            <span class="chip chip-primary">Tableau</span>
+            <span class="chip">Looker Studio</span>
+            <span class="chip">DOMO</span>
+          </div>
+        </div>
+
+        <div class="skill-group reveal">
+          <div class="skill-group-icon">
+            <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><ellipse cx="12" cy="5" rx="9" ry="3"/><path d="M21 12c0 1.66-4 3-9 3s-9-1.34-9-3"/><path d="M3 5v14c0 1.66 4 3 9 3s9-1.34 9-3V5"/></svg>
+          </div>
+          <h3 class="skill-group-title">Cloud & ETL</h3>
+          <div class="skill-chips">
+            <span class="chip chip-primary">BigQuery</span>
+            <span class="chip chip-primary">Snowflake</span>
+            <span class="chip">Airflow</span>
+            <span class="chip">DBT</span>
+            <span class="chip">Fivetran</span>
+          </div>
+        </div>
+
+        <div class="skill-group reveal">
+          <div class="skill-group-icon">
+            <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M2 20h.01M7 20v-4"/><path d="M12 20v-8"/><path d="M17 20v-6"/><path d="M22 4v16"/></svg>
+          </div>
+          <h3 class="skill-group-title">Analytics & Concepts</h3>
+          <div class="skill-chips">
+            <span class="chip chip-primary">A/B Testing</span>
+            <span class="chip chip-primary">Predictive Modeling</span>
+            <span class="chip">Hypothesis Testing</span>
+            <span class="chip">Customer Segmentation</span>
+            <span class="chip">Data Wrangling</span>
+          </div>
+        </div>
+
+        <div class="skill-group reveal">
+          <div class="skill-group-icon">
+            <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M14.7 6.3a1 1 0 0 0 0 1.4l1.6 1.6a1 1 0 0 0 1.4 0l3.77-3.77a6 6 0 0 1-7.94 7.94l-6.91 6.91a2.12 2.12 0 0 1-3-3l6.91-6.91a6 6 0 0 1 7.94-7.94l-3.76 3.76z"/></svg>
+          </div>
+          <h3 class="skill-group-title">Other Tools</h3>
+          <div class="skill-chips">
+            <span class="chip chip-primary">Excel / Google Sheets</span>
+            <span class="chip">Git</span>
+            <span class="chip">Google Workspace</span>
+            <span class="chip">Apps Script</span>
+          </div>
+        </div>
+
+        <div class="skill-group reveal">
+          <div class="skill-group-icon">
+            <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M22 10v6M2 10l10-5 10 5-10 5z"/><path d="M6 12v5c3 3 9 3 12 0v-5"/></svg>
+          </div>
+          <h3 class="skill-group-title">Education</h3>
+          <div class="skill-chips">
+            <span class="chip chip-primary">MS AI · UTSA</span>
+            <span class="chip">BTech CS · SRM</span>
+            <span class="chip">Analytics Track</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ═══════════════════════════ CONTACT ═══════════════════════════ -->
+  <section class="section contact-section" id="contact">
+    <div class="container">
+      <div class="contact-inner">
+        <div class="section-label">Get in Touch</div>
+        <h2 class="contact-title">Let's work together</h2>
+        <p class="contact-subtitle">I'm actively looking for data analyst, analytics engineer, or AI/ML roles. Whether you have an opportunity or just want to connect — my inbox is open.</p>
+
+        <div class="contact-options">
+          <a href="mailto:sriram.mahankali@my.utsa.edu" class="contact-card">
+            <div class="contact-card-icon">
+              <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/><polyline points="22,6 12,13 2,6"/></svg>
+            </div>
+            <div class="contact-card-content">
+              <span class="contact-card-label">Email</span>
+              <span class="contact-card-value">sriram.mahankali@my.utsa.edu</span>
+            </div>
+            <svg class="contact-arrow" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="5" y1="12" x2="19" y2="12"/><polyline points="12 5 19 12 12 19"/></svg>
+          </a>
+
+          <a href="https://www.linkedin.com/in/mahankalisriram" target="_blank" rel="noopener" class="contact-card">
+            <div class="contact-card-icon">
+              <svg width="24" height="24" viewBox="0 0 24 24" fill="currentColor"><path d="M20.447 20.452h-3.554v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.351V9h3.414v1.561h.046c.477-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 5.455v6.286zM5.337 7.433a2.062 2.062 0 0 1-2.063-2.065 2.064 2.064 0 1 1 2.063 2.065zm1.782 13.019H3.555V9h3.564v11.452zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451C23.2 24 24 23.227 24 22.271V1.729C24 .774 23.2 0 22.222 0h.003z"/></svg>
+            </div>
+            <div class="contact-card-content">
+              <span class="contact-card-label">LinkedIn</span>
+              <span class="contact-card-value">linkedin.com/in/mahankalisriram</span>
+            </div>
+            <svg class="contact-arrow" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="5" y1="12" x2="19" y2="12"/><polyline points="12 5 19 12 12 19"/></svg>
+          </a>
+
+          <a href="tel:+17262446624" class="contact-card">
+            <div class="contact-card-icon">
+              <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07A19.5 19.5 0 0 1 4.69 12 19.79 19.79 0 0 1 1.61 3.4 2 2 0 0 1 3.6 1.21h3a2 2 0 0 1 2 1.72c.127.96.361 1.903.7 2.81a2 2 0 0 1-.45 2.11L7.91 8.91a16 16 0 0 0 6.12 6.12l.96-.96a2 2 0 0 1 2.11-.45c.907.339 1.85.573 2.81.7A2 2 0 0 1 22 16.92z"/></svg>
+            </div>
+            <div class="contact-card-content">
+              <span class="contact-card-label">Phone</span>
+              <span class="contact-card-value">+1 (726) 244-6624</span>
+            </div>
+            <svg class="contact-arrow" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="5" y1="12" x2="19" y2="12"/><polyline points="12 5 19 12 12 19"/></svg>
+          </a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ═══════════════════════════ FOOTER ═══════════════════════════ -->
+  <footer class="footer">
+    <div class="container footer-inner">
+      <div class="footer-left">
+        <span class="footer-name">Sriram Mahankali</span>
+        <span class="footer-meta">MS Artificial Intelligence · UTSA · San Antonio, TX</span>
+      </div>
+      <div class="footer-right">
+        <span class="footer-copy">Built with care · 2025</span>
+      </div>
+    </div>
+  </footer>
+
+  <script src="main.js"></script>
+<script data-pplx-inline-edit>
+(function(){
+  if(window===window.top)return;
+  function inlineAll(orig,clone){
+    if(orig.nodeType!==1)return;
+    try{
+      var cs=getComputedStyle(orig);
+      var t='';
+      for(var i=0;i<cs.length;i++){t+=cs[i]+':'+cs.getPropertyValue(cs[i])+';';}
+      clone.style.cssText=t;
+    }catch(e){}
+    var oc=orig.children,cc=clone.children;
+    for(var j=0;j<oc.length&&j<cc.length;j++){inlineAll(oc[j],cc[j]);}
+  }
+  function stripExternal(clone){
+    var imgs=clone.querySelectorAll('img');
+    for(var i=0;i<imgs.length;i++){
+      var s=imgs[i].getAttribute('src');
+      if(s&&!s.startsWith('data:'))imgs[i].removeAttribute('src');
+    }
+    var all=clone.querySelectorAll('*');
+    for(var i=0;i<all.length;i++){
+      var st=all[i].style.cssText;
+      if(st&&st.indexOf('url(')>=0){
+        all[i].style.cssText=st.replace(/url\(["']?(?!data:)[^)"']*["']?\)/gi,'none');
+      }
+    }
+  }
+  window.addEventListener('message',function(e){
+    if(!e.data||e.data.type!=='INLINE_EDIT_CAPTURE_REQUEST')return;
+    var scrollX=window.scrollX||window.pageXOffset||0;
+    var scrollY=window.scrollY||window.pageYOffset||0;
+    var w=window.innerWidth,h=window.innerHeight;
+    try{
+      var clone=document.documentElement.cloneNode(true);
+      var rm=clone.querySelectorAll('script,link[rel="stylesheet"],style');
+      for(var i=0;i<rm.length;i++){rm[i].remove();}
+      inlineAll(document.documentElement,clone);
+      stripExternal(clone);
+      var html=new XMLSerializer().serializeToString(clone);
+      var svg='<svg xmlns="http://www.w3.org/2000/svg" width="'+w+'" height="'+h+'">'
+        +'<foreignObject width="100%" height="100%">'
+        +'<div xmlns="http://www.w3.org/1999/xhtml" style="width:'+w+'px;height:'+h+'px;overflow:hidden">'
+        +'<div style="transform:translate(-'+scrollX+'px,-'+scrollY+'px);transform-origin:top left">'
+        +html+'</div></div></foreignObject></svg>';
+      var svgUrl='data:image/svg+xml;charset=utf-8,'+encodeURIComponent(svg);
+      var img=new Image();
+      img.onload=function(){
+        var c=document.createElement('canvas');c.width=w;c.height=h;
+        c.getContext('2d').drawImage(img,0,0);
+        window.parent.postMessage({type:'INLINE_EDIT_SCREENSHOT_RESULT',dataUrl:c.toDataURL('image/png'),scrollX:scrollX,scrollY:scrollY},'*');
+      };
+      img.onerror=function(){
+        window.parent.postMessage({type:'INLINE_EDIT_SCREENSHOT_RESULT',dataUrl:null,scrollX:scrollX,scrollY:scrollY},'*');
+      };
+      img.src=svgUrl;
+    }catch(err){
+      window.parent.postMessage({type:'INLINE_EDIT_SCREENSHOT_RESULT',dataUrl:null,scrollX:scrollX,scrollY:scrollY},'*');
+    }
+  });
+})();
+</script></body>
+</html>
